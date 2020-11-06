@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Course App</string>
+    <string name="my_name">Amal Khairin</string>
+    <string name="my_email">amallanch45@gmail.com</string>
+    <string name="desc_placeholder">Belajar Pemrograman Berorientasi Objek dengan baik</string>
+    <string name="level_placeholder">Beginner</string>
+    <string name="rate_placeholder">4.5</string>
+    <string name="price_placeholder">Rp. 340.000.000</string>
+    <string name="week">4 Minggu</string>
+    <string name="est_time">Estimasi waktu</string>
+    <string name="hour">10 Jam</string>
+    <string name="deadline">Deadline belajar</string>
+    <string name="modul">10 Modul</string>
+    <string name="sum_modul">Jumlah modul</string>
+    <string name="course_image">Course Image</string>
+    <string name="enroll_course">Enroll Course</string>
+</resources>

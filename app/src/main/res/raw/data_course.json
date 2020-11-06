@@ -1,0 +1,104 @@
+{
+  "data": {
+    "1" : {
+      "course_name" : "Dasar Aplikasi Android",
+      "course_desc" : "Android merupakan sistem operasi berbasis linux yang dibuat untuk perangkat smartphone. Di dalam Sistem Operasi ini terdapat aplikasi yang hanya bisa dijalankan di sistem operasi android. Di kelas ini akan dipelajari bagaimana dasar-dasar dalam membangun sebuah aplikasi android.",
+      "course_rate": 4.9,
+      "course_level": "Beginner",
+      "course_price": 180000,
+      "course_modul_total": 10,
+      "course_est_time": 20,
+      "course_img": "android_dasar"
+    },
+    "2" : {
+      "course_name" : "Belajar Pemrograman Berorientasi Objek",
+      "course_desc" : "Pemrograman Berorientasi Objek (OOP) merupakan sebuah paradigma yang memiliki konsep Objek. Di kelas ini akan dipelajari mengenai Pemrograman Berorientasi Objek ini secara mendalam.",
+      "course_rate": 5.0,
+      "course_level": "Beginner",
+      "course_price": 0,
+      "course_modul_total": 15,
+      "course_est_time": 30,
+      "course_img": "oop"
+    },
+    "3" : {
+      "course_name" : "Belajar Bahasa Java",
+      "course_desc" : "Bahasa pemrograman Java merupakan bahasa yang memiliki konsep OOP. Bahasa Java sering kali digunakan dalam membuat sebuah aplikasi desktop maupun aplikasi android. Dalam kelas ini akan dipelajari mengenai dasar-dasar bahasa pemrograman Java.",
+      "course_rate": 4.8,
+      "course_level": "Beginner",
+      "course_price": 0,
+      "course_modul_total": 15,
+      "course_est_time": 30,
+      "course_img": "java_langr"
+    },
+    "4" : {
+      "course_name" : "Belajar Bahasa Kotlin",
+      "course_desc" : "Bahasa pemrograman Kotlin merupakan bahasa yang dikembangkan oleh JetBrains. Kotlin bersifat statis dan didesain dapat bekerja sama dengan bahasa pemrograman Java. Kotlin juga merupakan bahasa utama yang digunakan developer dalam mengembangkan aplikasi Android sekarang ini.\nDi kelas ini akan dipelajari dasar-dasar pemrograman menggunakan bahasa Kotlin.",
+      "course_rate": 5.0,
+      "course_level": "Beginner",
+      "course_price": 0,
+      "course_modul_total": 18,
+      "course_est_time": 48,
+      "course_img": "kotlin_lang"
+    },
+    "5" : {
+      "course_name" : "Belajar Bahasa Dart",
+      "course_desc" : "Bahasa Dart atau Dart Language merupakan bahasa pemrograman yang dikembangkan oleh Google. Bahasa Dart juga salah satu bahasa pemrograman tipe Object Oriented (OOP). Bahasa dart digunakan dalam membuat aplikasi menggunakan Framework Flutter.\nDi dalam kelas ini akan dipelajari sintaks-sintaks dasar bahasa Dart.",
+      "course_rate": 4.7,
+      "course_level": "Beginner",
+      "course_price": 0,
+      "course_modul_total": 16,
+      "course_est_time": 40,
+      "course_img": "dart_lang"
+    },
+    "6" : {
+      "course_name" : "Membuat Aplikasi dengan Flutter",
+      "course_desc" : "Flutter merupakan framework yang dikembangkan oleh Google untuk membuat aplikasi Android/iOS, Desktop, dan Website hanya dengan satu code base. Dalam pengembangan aplikasi Flutter digunakan bahasa pemrograman Dart.\nDi kelas ini akan dipelajari tentang bagaimana membuat aplikasi multi-platform menggunakan Flutter.",
+      "course_rate": 4.9,
+      "course_level": "Beginner",
+      "course_price": 250000,
+      "course_modul_total": 10,
+      "course_est_time": 25,
+      "course_img": "flutter"
+    },
+    "7" : {
+      "course_name" : "Belajar Javascript",
+      "course_desc" : "Javascript merupakan bahasa pemrograman tingkat tinggi yang sering digunakan oleh Web Developer. Javascript bersifat Client-Side atau prosesnya dilakukan oleh client. Javascript digunakan oleh Web Developer agar website mereka menjadi lebih hidup.\nDi Kelas ini akan dipelajari dasar-dasar Javascript dan sintaksnya",
+      "course_rate": 4.9,
+      "course_level": "Beginner",
+      "course_price": 0,
+      "course_modul_total": 15,
+      "course_est_time": 18,
+      "course_img": "javascript"
+    },
+    "8" : {
+      "course_name" : "Flutter State Management",
+      "course_desc" : "Dalam membuat sebuah aplikasi reactive, sering kali menggunakan state management untuk mangatur state agar lebih maintainable.\nFlutter memiliki state management bawaan ketika menggunakan Statefull Widget, namun hanya sebatas per kelas.\nDi kelas ini akan dikenalkan beberapa state management yang sering digunakan dalam pengembangan aplikasi Flutter.",
+      "course_rate": 4.5,
+      "course_level": "Intermediate",
+      "course_price": 250000,
+      "course_modul_total": 12,
+      "course_est_time": 18,
+      "course_img": "state_management"
+    },
+    "9" : {
+      "course_name" : "Belajar CodeIgniter",
+      "course_desc" : "CodeIgniter merupakan framework open source dengan model MVC (Model-View-Controller) yang digunakan dalam mengembangkan website menggunakan PHP.\nDi dalam kelas ini akan dipelajari cara membangun sebuah website menggunakan CodeIgniter.",
+      "course_rate": 4.6,
+      "course_level": "Intermediate",
+      "course_price": 180000,
+      "course_modul_total": 14,
+      "course_est_time": 10,
+      "course_img": "codeigniter"
+    },
+    "10" : {
+      "course_name" : "Mengenal Restfull API",
+      "course_desc" : "Rest (Representional State Transfer) merupakan arsitektur komunikasi perangkat lunak berbasis web untuk pendistribusian seperti http sebagai protokol untuk komunikasi data. Sedangkan API (Application Programming Interface) merupakan sekumpulan perintah/fungsi yang dapat digunakan untuk berinteraksi dengan aplikasi lainnya. Restfull API juga terdapat dalam Rest yang merupakan implementasi dari web service.\nDi dalam kelas ini akan dipelajari tentang Restfull API dan cara membuatnya.",
+      "course_rate": 4.4,
+      "course_level": "Intermediate",
+      "course_price": 0,
+      "course_modul_total": 10,
+      "course_est_time": 20,
+      "course_img": "restfull_api"
+    }
+  }
+}

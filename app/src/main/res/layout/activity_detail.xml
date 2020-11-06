@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_detail"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_course_detail_price"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="24sp"
+            android:textColor="@color/baseColor"
+            tools:text="@string/price_placeholder"/>
+
+        <Button
+            android:id="@+id/btn_enroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:background="@color/baseColor"
+            android:text="@string/enroll_course"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_detail_course"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                tools:src="@color/baseColor"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/course_image" />
+
+            <TextView
+                android:id="@+id/tv_course_detail_name"
+                android:layout_below="@id/img_detail_course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                tools:text="@string/desc_placeholder"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_course_detail_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/tv_course_detail_name"
+                tools:text="@string/level_placeholder"/>
+
+            <LinearLayout
+                android:id="@+id/rate_layout"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/tv_course_detail_level"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_rate"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_rate"
+                    android:layout_marginStart="4dp"/>
+
+                <TextView
+                    android:id="@+id/tv_course_detail_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    tools:text="@string/rate_placeholder"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_course_detail_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_below="@id/rate_layout"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                tools:text="@string/desc_placeholder"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_course_detail_desc"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/sum_modul"/>
+
+                    <TextView
+                        android:id="@+id/tv_course_detail_modul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_weight="1"
+                        tools:text="@string/modul"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/est_time"/>
+
+                    <TextView
+                        android:id="@+id/tv_course_detail_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_weight="1"
+                        tools:text="@string/hour"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/deadline"/>
+
+                    <TextView
+                        android:id="@+id/tv_course_detail_deadline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_weight="1"
+                        android:text="@string/week"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
